@@ -1,0 +1,25 @@
+# Add files here to ignore them from eslint
+
+*.md
+
+/dist
+/coverage
+/docs
+
+
+**/node_modules
+node_modules
+node_modules/**
+/node_modules
+node_modules/
+
+
+**/dist
+dist
+dist/**
+/dist
+dist/
+
+
+**/*.spec.ts
+

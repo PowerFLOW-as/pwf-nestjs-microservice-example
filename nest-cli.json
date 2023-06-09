@@ -1,0 +1,18 @@
+{
+  "sourceRoot": "src",
+  "entryFile": "app",
+  "compilerOptions": {
+    "tsConfigPath": "tsconfig.build.json",
+    "plugins": [{
+      "name": "@nestjs/swagger",
+      "options": { "introspectComments": true }
+    }],
+    "assets": [
+      {
+        "include": "../public",
+        "outDir": "dist/public",
+        "watchAssets": true
+      }
+    ]
+  }
+}
